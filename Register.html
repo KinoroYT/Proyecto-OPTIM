@@ -1,0 +1,65 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+  </head>
+
+  <body>
+    <a href="Login.html"><--Back</a>
+    <form action="Register.html" method="post" align="center" ">
+    <h1>Register</h1>
+    <label for="email">Email&nbsp;</label>
+    <input
+      type="text"
+      name="Email"
+      id="email"
+      placeholder="Enter Email"
+      required
+      minlength="3"
+      maxlength="15"
+      pattern="[a-zA-Z0-100]+"
+    />
+    <br />
+    <br />
+    <label for="reg-pw">Password&nbsp;</label>
+    <input
+      type="password"
+      name="reg-pw"
+      id="reg-pw"
+      placeholder="Enter Password"
+      required
+      minlength="8"
+      maxlength="20"
+    />
+    <br />
+    <br />
+    <label for="conf-pw">Confirm&nbsp;</label>
+    <input
+      type="password"
+      id="conf-pw"
+      name="conf-pw"
+      placeholder="Confirm Password"
+      required
+      minlength="8"
+      maxlength="20"
+    />
+    <br />
+    <br />
+    <label for="Age">Age&nbsp;</label>
+    <input
+      type="number"
+      step="1"
+      id="Age"
+      name="years"
+      placeholder="Enter Age"
+      required
+      min="1"
+      max="100"
+    />
+    <br />
+    <br />
+    <input type="submit" value="Enter" />
+  </body>
+</html>

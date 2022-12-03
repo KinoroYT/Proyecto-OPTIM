@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+  </head>
+
+  <body>
+    <a href="Index.html"><--Back</a>
+    <form action="/Form.html" method="post" align="center">
+      <h1>Login</h1>
+      <label for="username">Username</label>
+      <input
+        type="text"
+        name="username"
+        id="username"
+        placeholder="Enter User"
+        required
+        minlength="4"
+        maxlength="15"
+        pattern="[a-zA-Z0-100]+"
+      />
+      <br />
+      <br />
+      <label for="user-pw">Password</label>
+      <input
+        type="password"
+        name="user-pw"
+        id="user-pw"
+        placeholder="Enter Password"
+        required
+        minlength="8"
+        maxlength="20"
+      />
+      <br />
+      <br />
+      <input type="submit" value="Enter" />
+      <p>You don't have an account yet? <a href="Register.html">Register</a></p>
+    </form>
+  </body>
+</html>
